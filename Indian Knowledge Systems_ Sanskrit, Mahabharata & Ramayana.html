@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Indian Knowledge Systems: Sanskrit, Mahabharata, Ramayana &amp; More</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&family=Noto+Serif+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff8ee;--card:#ffffff;--text:#2b2118;--muted:#6b5b4b;--accent:#c2410c;--accent2:#92400e;--line:#ecd9bf;--hero1:#c2410c;--hero2:#7c2d12;--heroText:#fff8ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a130d;--card:#261c13;--text:#f3e7d6;--muted:#bfa98c;--accent:#fb923c;--accent2:#fdba74;--line:#43321f;--hero1:#7c2d12;--hero2:#431407;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a130d;--card:#261c13;--text:#f3e7d6;--muted:#bfa98c;--accent:#fb923c;--accent2:#fdba74;--line:#43321f;--hero1:#7c2d12;--hero2:#431407;color-scheme:dark}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2;margin:0 0 .5em}
+.dev{font-family:'Noto Serif Devanagari','Noto Sans Devanagari',serif}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:6px;align-items:center;padding:10px 16px;overflow-x:auto;white-space:nowrap}
+nav b{font-family:'Playfair Display',serif;color:var(--accent);margin-right:auto;padding-right:12px}
+nav a{color:var(--text);text-decoration:none;padding:6px 12px;border-radius:99px;font-size:14px;font-weight:500}
+nav a:hover{background:var(--line)}
+.hero{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:var(--heroText);text-align:center;padding:72px 20px}
+.hero .om{font-size:56px;margin-bottom:8px}
+.hero h1{font-size:clamp(30px,6vw,52px)}
+.hero p{max-width:640px;margin:0 auto 20px;opacity:.92}
+.btn{display:inline-block;background:var(--heroText);color:var(--hero2);padding:10px 22px;border-radius:99px;text-decoration:none;font-weight:600}
+section{max-width:1000px;margin:0 auto;padding:56px 20px}
+h2{font-size:clamp(26px,4vw,36px);color:var(--accent2)}
+h2 small{display:block;font:500 14px Inter;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{font-size:19px;color:var(--accent)}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.stat{flex:1 1 140px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}
+.stat b{display:block;font:700 26px 'Playfair Display',serif;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+.quote{border-left:4px solid var(--accent);background:var(--card);padding:14px 18px;border-radius:0 12px 12px 0;margin:22px 0}
+.quote .dev{font-size:22px;color:var(--accent2)}
+.quote p{margin:4px 0 0;color:var(--muted);font-size:14px}
+.letters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.letters button{font:700 26px 'Noto Serif Devanagari',serif;width:54px;height:54px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+.letters button:hover,.letters button.on{background:var(--accent);color:#fff}
+#sound{min-height:26px;margin-top:10px;color:var(--accent2);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--text);padding:7px 16px;border-radius:99px;cursor:pointer;font:500 14px Inter}
+.tabs button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tag{display:inline-block;font-size:12px;background:var(--line);color:var(--accent2);padding:2px 10px;border-radius:99px;margin-bottom:8px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+ul{padding-left:20px;color:var(--muted)}
+footer{text-align:center;padding:30px 20px;color:var(--muted);border-top:1px solid var(--line);font-size:14px}
+</style>
+</head>
+<body>
+<nav><b>IKS Portal</b><a href="#sanskrit">Sanskrit</a><a href="#mahabharata">Mahabharata</a><a href="#ramayana">Ramayana</a><a href="#books">Other Texts</a></nav>
+
+<header class="hero">
+<div class="om dev">ॐ</div>
+<h1>Indian Knowledge Systems</h1>
+<p>A journey through Sanskrit, the language of ancient wisdom, and the great epics and texts that shaped philosophy, science, art and ethics for thousands of years.</p>
+<a class="btn" href="#sanskrit">Begin exploring</a>
+</header>
+
+<section id="sanskrit">
+<h2><small>The Language</small>Sanskrit (संस्कृतम्)</h2>
+<p>Sanskrit means “perfected” or “refined”. It is one of the world’s oldest documented languages and the classical language of India, used for scripture, poetry, science, mathematics, medicine and philosophy. Many modern Indian languages draw heavily on its vocabulary, and it is closely tied to the study of Indo-European linguistics.</p>
+<div class="stats">
+<div class="stat"><b>3500+</b><span>years of recorded history</span></div>
+<div class="stat"><b>~4000</b><span>sutras in Panini’s grammar</span></div>
+<div class="stat"><b>Devanagari</b><span>most common script today</span></div>
+<div class="stat"><b>2</b><span>stages: Vedic &amp; Classical</span></div>
+</div>
+<div class="grid">
+<div class="card"><h3>Vedic Sanskrit</h3><p>The older form, found in the Rigveda and other Vedic hymns. It has distinct grammar, accents and meters.</p></div>
+<div class="card"><h3>Classical Sanskrit</h3><p>Standardised by Panini’s Ashtadhyayi (around 4th century BCE). Used in the epics, drama and kavya poetry.</p></div>
+<div class="card"><h3>Scientific Precision</h3><p>Its phonetic organisation and rule-based grammar inspire modern work in linguistics and computing.</p></div>
+</div>
+<div class="quote"><div class="dev">वसुधैव कुटुम्बकम्</div><p>“Vasudhaiva Kutumbakam”: the world is one family. From the Maha Upanishad.</p></div>
+<h3>Try the sounds</h3>
+<p style="color:var(--muted);margin:0">Tap a letter of the Devanagari script to see its romanised sound.</p>
+<div class="letters" id="letters"></div>
+<div id="sound">&nbsp;</div>
+</section>
+
+<section id="mahabharata">
+<h2><small>Itihasa · Epic</small>The Mahabharata (महाभारतम्)</h2>
+<p>Traditionally attributed to the sage Vyasa, the Mahabharata is among the longest epic poems in the world. It tells of the dynastic struggle between the Pandavas and Kauravas culminating in the Kurukshetra war, while exploring dharma, duty, power, loyalty and consequence.</p>
+<div class="stats">
+<div class="stat"><b>~100,000</b><span>shlokas (verses)</span></div>
+<div class="stat"><b>18</b><span>parvas (books)</span></div>
+<div class="stat"><b>18</b><span>days of war</span></div>
+<div class="stat"><b>700</b><span>verses of the Bhagavad Gita</span></div>
+</div>
+<div class="two">
+<div class="card"><h3>Key Characters</h3><ul><li>Yudhishthira, the dharma-bound eldest Pandava</li><li>Arjuna, the master archer</li><li>Krishna, guide and charioteer</li><li>Bhishma, Karna, Draupadi, Duryodhana</li></ul></div>
+<div class="card"><h3>The Bhagavad Gita</h3><p>Part of the Bhishma Parva. Krishna’s dialogue with Arjuna on the battlefield covers duty, action without attachment, devotion and knowledge, and remains one of the most widely read Indian texts.</p></div>
+</div>
+</section>
+
+<section id="ramayana">
+<h2><small>Adi Kavya · Epic</small>The Ramayana (रामायणम्)</h2>
+<p>Composed by the sage Valmiki, the Ramayana is called the Adi Kavya, the first poem. It follows Prince Rama of Ayodhya: his exile, the abduction of Sita by Ravana, the alliance with Hanuman and the vanara army, and the return to Ayodhya.</p>
+<div class="stats">
+<div class="stat"><b>~24,000</b><span>shlokas</span></div>
+<div class="stat"><b>7</b><span>kandas (sections)</span></div>
+<div class="stat"><b>Anushtubh</b><span>principal meter</span></div>
+</div>
+<div class="tabs" id="kandaTabs"></div>
+<div class="card" id="kandaBox"></div>
+<p style="color:var(--muted)">The story has been retold across Asia, in Tulsidas’s Ramcharitmanas, Kamban’s Tamil Ramavataram, and countless performances, dances and folk traditions.</p>
+</section>
+
+<section id="books">
+<h2><small>Beyond the Epics</small>Other Great Texts</h2>
+<p>Sanskrit literature spans religion, science, statecraft and the arts. Filter by field:</p>
+<div class="tabs" id="bookTabs"></div>
+<div class="grid" id="bookGrid"></div>
+</section>
+
+<footer>Made for the study of Indian Knowledge Systems (IKS). सर्वे भवन्तु सुखिनः · May all be happy.</footer>
+
+<script>
+const L=[["अ","a"],["आ","ā (long a)"],["इ","i"],["ई","ī (long i)"],["उ","u"],["ऊ","ū (long u)"],["ऋ","ṛ"],["ए","e"],["ऐ","ai"],["ओ","o"],["औ","au"],["क","ka"],["ख","kha"],["ग","ga"],["घ","gha"],["च","ca"],["ज","ja"],["त","ta"],["द","da"],["न","na"],["प","pa"],["म","ma"],["य","ya"],["र","ra"],["ल","la"],["व","va"],["श","śa"],["स","sa"],["ह","ha"]];
+const lw=document.getElementById('letters'),snd=document.getElementById('sound');
+L.forEach(([d,r])=>{const b=document.createElement('button');b.textContent=d;b.onclick=()=>{lw.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');snd.textContent=d+'  →  '+r};lw.appendChild(b)});
+
+const K=[["Bala Kanda","Rama’s birth in Ayodhya, his education under Vishvamitra, and his marriage to Sita after breaking Shiva’s bow."],["Ayodhya Kanda","Preparations for Rama’s coronation are undone; he accepts fourteen years of exile in the forest."],["Aranya Kanda","Life in the forest, encounters with sages, and the abduction of Sita by Ravana."],["Kishkindha Kanda","Rama meets Hanuman and Sugriva, and the search for Sita begins."],["Sundara Kanda","Hanuman crosses the ocean, finds Sita in Lanka and delivers Rama’s message."],["Yuddha Kanda","The bridge to Lanka, the great war and the defeat of Ravana."],["Uttara Kanda","Rama’s reign and later events, including the story of Sita’s later life and the sons Lava and Kusha."]];
+const kt=document.getElementById('kandaTabs'),kb=document.getElementById('kandaBox');
+function showK(i){[...kt.children].forEach((b,j)=>b.classList.toggle('on',i===j));kb.innerHTML='<h3>'+K[i][0]+'</h3><p>'+K[i][1]+'</p>'}
+K.forEach((k,i)=>{const b=document.createElement('button');b.textContent=(i+1)+'. '+k[0].replace(' Kanda','');b.onclick=()=>showK(i);kt.appendChild(b)});showK(0);
+
+const B=[["Vedas","Scripture","Rigveda, Samaveda, Yajurveda and Atharvaveda: hymns, chants and rituals, the oldest layer of Sanskrit literature."],["Upanishads","Philosophy","Reflections on Atman and Brahman, the self and ultimate reality. The basis of Vedanta."],["Puranas","Scripture","Eighteen major Puranas preserve myths, cosmology, genealogies and devotional traditions."],["Manusmriti & Dharmashastras","Law & Ethics","Texts on social duty, law and conduct in classical India."],["Arthashastra","Statecraft","Kautilya’s treatise on governance, economics, diplomacy and security."],["Natyashastra","Arts","Bharata’s manual of drama, dance, music and the theory of rasa."],["Panchatantra","Literature","Vishnu Sharma’s animal fables teaching practical wisdom, later translated across the world."],["Shakuntalam","Literature","Kalidasa’s celebrated play, a high point of classical Sanskrit drama."],["Yoga Sutras","Philosophy","Patanjali’s concise aphorisms on the discipline of mind and the eightfold path."],["Charaka & Sushruta Samhitas","Science","Foundational Ayurvedic texts on medicine, diagnosis and surgery."],["Aryabhatiya","Science","Aryabhata’s work on mathematics and astronomy, including place value and the Earth’s rotation."],["Brihat Samhita","Science","Varahamihira’s encyclopedia of astronomy, weather, architecture and gems."]];
+const cats=["All",...new Set(B.map(b=>b[1]))],bt=document.getElementById('bookTabs'),bg=document.getElementById('bookGrid');
+function showB(c){[...bt.children].forEach(b=>b.classList.toggle('on',b.textContent===c));bg.innerHTML=B.filter(b=>c==='All'||b[1]===c).map(b=>'<div class="card"><span class="tag">'+b[1]+'</span><h3>'+b[0].replace('&','&amp;')+'</h3><p>'+b[2]+'</p></div>').join('')}
+cats.forEach(c=>{const b=document.createElement('button');b.textContent=c;b.onclick=()=>showB(c);bt.appendChild(b)});showB('All');
+</script>
+</body>
+</html>
